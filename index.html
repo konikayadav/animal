@@ -1,0 +1,34 @@
+<!-- https://teachablemachine.withgoogle.com/models/tsRtJ6OED/ -->
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <center>
+       <div id="header">
+        <h1>ANIMAL SOUNDS</h1>
+        <h3>make a sound that matches any of the sounds below, like bark, meow, moo and howl</h3>
+       </div>
+        <div id="main_div">
+          <button class="btn btn-warning" onclick="start()"> START </button>
+          <h3 id="sounds"> I can hear: </h3>
+          <h3 id="accuracy">Accuracy: </h3>
+          <img height="350" width="375" src="ear.png" id="images">
+        </div>
+        <div id="footer">
+          <h2>Developed by Konika Yadav</h2>
+        </div>
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
